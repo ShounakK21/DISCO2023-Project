@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{enumitem} % Package for customized lists
+
+\title{\textbf{Report about Project}}
+\author{Kartavya Dubey, Shounak Kulkarni, Krishna Narwade}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Problem Formulation}
+
+The problem statement focuses on optimizing the assignment of courses to different professors based on their preference order while ensuring that each professor receives the required number of courses and each course is taught by the required number of professors.
+
+Our approach involves maintaining a list of preference orders for each professor. Courses are stored in a dictionary format, where the course name serves as the key, and the number of assignments is the corresponding value. Using iterative loops, we iterate through each professor, access their preference order, and assign available courses accordingly. Subsequently, we employ a function to validate the proper assignment of all professors and courses.
+
+\section{Constraints}
+
+The constraints for the project are as follows:
+
+\begin{enumerate}[label=\arabic*.]
+    \item A course can only be assigned to a faculty member if it appears in their preference list.
+    \item Faculty members' course assignments must adhere to their category-based constraints:
+    \begin{itemize}[label=--]
+        \item Faculty in category ``x1'' can handle up to 0.5 courses per semester.
+        \item Faculty in category ``x2'' can handle up to 1 course per semester.
+        \item Faculty in category ``x3'' can handle up to 1.5 courses per semester.
+    \end{itemize}
+    \item Ensure that the total course assignments respect the available courses and faculty preferences.
+\end{enumerate}
+
+\section{Functionality of the Code}
+
+The code encompasses several key functions:
+
+\subsection{Reading Input File (\texttt{read\_input\_file()})}
+
+This function reads data from a specified file path, handling file-related errors, and returns the retrieved data.
+
+\subsection{Parsing Faculty Data (\texttt{read\_data()})}
+
+The \texttt{read\_data()} function processes the input data, categorizing faculty members into distinct groups ('x1', 'x2', 'x3'), and storing their course preferences and categories in a dictionary (\texttt{faculty\_data}).
+
+\subsection{Initialization of Allotment Data (\texttt{initialize\_allot\_data()})}
+
+The \texttt{initialize\_allot\_data()} function initializes the allotment data, creating a structure to store the allotment details for each faculty member.
+
+\subsection{Faculty Course Reduction (\texttt{reduce()})}
+
+The \texttt{reduce()} function decreases the course load for a specific faculty member and course by a given reduction value. It updates the faculty's course load and allotment data accordingly.
+
+\subsection{Check Constraints (\texttt{check()})}
+
+The \texttt{check()} function verifies if all faculty members meet certain constraints, ensuring their course loads are within specified limits.
+
+\subsection{Faculty Course Allotment (\texttt{allotment()})}
+
+The \texttt{allotment()} function performs the iterative process of allotting courses to faculty members based on their preferences and category-based constraints. It uses a recursive approach to allocate courses until all constraints are satisfied.
+
+\end{document}
