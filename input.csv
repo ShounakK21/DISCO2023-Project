@@ -1,0 +1,11 @@
+faculty_id,category,FDCDC1,FDCDC2,FDCDC3,FDCDC4,FDELE1,FDELE2,FDELE3,FDELE4,HDCDC1,HDCDC2,HDELE1,HDELE2
+1,x1,DD,OOP,DISCO,LCS,Symlog,Creative,Psychology,Creative,MUP,DSA,Disaster,Marines
+2,x1,M3,OS,advgraph,CompArc,Disaster,Cinematic,Marines,Cinematic,Crypto,Networks,Creative,History
+3,x1,MUP,DSA,M4,DD,Psychology,Ecology,History,Ecology,DISCO,LCS,Cinematic,Disaster
+4,x2,M3,OS,DD,CompArc,Marines,Karnatik,Disaster,Psychology,quantum,graph,Psychology,Creative
+5,x2,MUP,DSA,M4,DD,History,Symlog,Creative,Marines,M3,OS,Marines,Cinematic
+6,x2,M3,OS,ES,CompArc,Disaster,Disaster,Cinematic,History,AI,CP,History,Psychology
+7,x2,OS,DISCO,M3,Quantum,Creative,Psychology,Ecology,Disaster,MUP,DSA,Ecology,Symlog
+8,x3,DD,OOP,DISCO,LCS,Cinematic,Marines,Karnatik,Marines,M3,OS,Karnatik,Disaster
+9,x3,Crypto,LCS,AI,LCS,Ecology,History,Symlog,History,POE,OOP,Symlog,Ecology
+10,x3,Quantum,Blockchain,DBMS,DISCO,Karnatik,Disaster,Disaster,Disaster,POM,POE,Disaster,Karnatik

@@ -1,0 +1,11 @@
+faculty_id,category,FDCDC1,FDCDC2,FDCDC3,FDCDC4,FDELE1,FDELE2,FDELE3,FDELE4,HDCDC1,HDCDC2,HDELE1,HDELE2
+1,x1,MOW,GenChem,Biology,M1,Symlog,Creative,Psychology,Creative,M2,ProbStats,Disaster,Marines
+2,x1,CP,WS,advgraph,TRW,Disaster,Cinematic,Marines,Cinematic,ES,EEB,Creative,History
+3,x1,M2,ProbStats,M4,MOW,Psychology,Ecology,History,Ecology,Biology,M1,Cinematic,Disaster
+4,x2,CP,WS,MOW,TRW,Marines,Karnatik,Disaster,Psychology,Fufa,graph,Psychology,Creative
+5,x2,M2,ProbStats,M4,MOW,History,Symlog,Creative,Marines,CP,WS,Marines,Cinematic
+6,x2,CP,WS,ES,TRW,Disaster,Disaster,Cinematic,History,AI,CP,History,Psychology
+7,x2,WS,Biology,CP,Fufa,Creative,Psychology,Ecology,Disaster,M2,ProbStats,Ecology,Symlog
+8,x3,MOW,GenChem,Biology,M1,Cinematic,Marines,Karnatik,Marines,CP,WS,Karnatik,Disaster
+9,x3,ES,M1,AI,M1,Ecology,History,Symlog,History,POE,GenChem,Symlog,Ecology
+10,x3,Fufa,Blockchain,DBMS,Biology,Karnatik,Disaster,Disaster,Disaster,POM,POE,Disaster,Karnatik
