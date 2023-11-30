@@ -35,8 +35,10 @@ This Python script implements a backtracking algorithm to allot courses to facul
 ```python
 python3 script_name.py
 ```
-Group Members: Shounak Kulkarni(2022A7PS11151G), Kartavya Dubey(2022A7PS0795G), Krishna Narwade(2022A7PS1185G)
 
 3. View the output in "output2.csv" to see the faculty-wise course allotments.
 
 Note: Make sure to replace 'script_name.py' with the actual name of your Python script.
+
+
+Group Members: Shounak Kulkarni(2022A7PS11151G), Kartavya Dubey(2022A7PS0795G), Krishna Narwade(2022A7PS1185G)
