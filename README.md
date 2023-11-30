@@ -33,7 +33,7 @@ This Python script implements a backtracking algorithm to allot courses to facul
 2. Run the script.
 
 ```python
-python script_name.py
+python3 script_name.py
 ```
 
 3. View the output in "output2.csv" to see the faculty-wise course allotments.
